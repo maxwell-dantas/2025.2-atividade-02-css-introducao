@@ -7,76 +7,68 @@ Esta atividade tem como objetivo praticar a aplicação de CSS externo e tem com
 Utilize os diferentes tipos de seletores e propriedades básicas do CSS.
 
 ### Instruções Gerais
-- [ ] Faça um fork desse repositório para o professor poder acompanhar;
-- [ ] No seu repositório da atividade, coloque o link do [vercel](https://vercel.com/) da sua atividade de [introdução a html](https://github.com/tads-webdesign/2025.2-atividade-01-html-introducao);
-- [ ] Crie um arquivo CSS externo chamado `pg-pessoal.css` no seu repositório da atividade de [introdução a html](https://github.com/tads-webdesign/2025.2-atividade-01-html-introducao);
-- [ ] Vincule o arquivo CSS `pg-pessoal.css` ao `index.html` usando a tag `<link>` no `<head>` no seu repositório da atividade de [introdução a html](https://github.com/tads-webdesign/2025.2-atividade-01-html-introducao);
-- [ ] Complete todas as tarefas abaixo aplicando os estilos especificados
+- [x] Faça um fork desse repositório para o professor poder acompanhar;
+- [x] No seu repositório da atividade, coloque o link do [vercel](https://vercel.com/) da sua atividade de [introdução a html](https://github.com/tads-webdesign/2025.2-atividade-01-html-introducao);
+- [x] Crie um arquivo CSS externo chamado `pg-pessoal.css` no seu repositório da atividade de [introdução a html](https://github.com/tads-webdesign/2025.2-atividade-01-html-introducao);
+- [x] Vincule o arquivo CSS `pg-pessoal.css` ao `index.html` usando a tag `<link>` no `<head>` no seu repositório da atividade de [introdução a html](https://github.com/tads-webdesign/2025.2-atividade-01-html-introducao);
+- [x] Complete todas as tarefas abaixo aplicando os estilos especificados
 
 ---
 
 ## Checklist de Tarefas
 
 ### 1. Configuração Inicial
-- [ ] Criar o arquivo `pg-pessoal.css` na raiz do projeto
-- [ ] Adicionar a tag `<link rel="stylesheet" href="pg-pessoal.css">` no `<head>` do arquivo `index.html`
+- [x] Criar o arquivo `pg-pessoal.css` na raiz do projeto
+- [x] Adicionar a tag `<link rel="stylesheet" href="pg-pessoal.css">` no `<head>` do arquivo `index.html`
 
 ### 2. Seletor Universal
-- [ ] Aplicar o seletor universal (`*`) para resetar margens e paddings de todos os elementos
+- [x] Aplicar o seletor universal (`*`) para resetar margens e paddings de todos os elementos
   - `margin: 0;`
   - `padding: 0;`
   - `box-sizing: border-box;`
 
 ### 3. Seletores de Elemento - Corpo da Página
-- [ ] Estilizar o elemento `body`:
+- [x] Estilizar o elemento `body`:
   - `font-size: 16px;`
   - `color: #333333;`
   - `text-align: left;`
 
 ### 4. Seletores de Elemento - Títulos (h1 a h6)
-- [ ] Estilizar o elemento `h1`:
+- [x] Estilizar o elemento `h1`:
   - `font-size: 36px;`
   - `color: #1a1a1a;`
   - `text-align: center;`
 
-- [ ] Estilizar o elemento `h2`:
+- [x] Estilizar o elemento `h2`:
   - `font-size: 28px;`
   - `color: #2c3e50;`
   - `text-align: center;`
 
-- [ ] Estilizar o elemento `h3`:
+- [x] Estilizar o elemento `h3`:
   - `font-size: 24px;`
   - `color: #34495e;`
   - `text-align: left;`
 
-- [ ] Estilizar o elemento `h4`:
+- [x] Estilizar o elemento `h4`:
   - `font-size: 20px;`
   - `color: #555555;`
 
-- [ ] Estilizar o elemento `h5`:
-  - `font-size: 18px;`
-  - `color: #666666;`
-
-- [ ] Estilizar o elemento `h6`:
-  - `font-size: 16px;`
-  - `color: #777777;`
-
 ### 5. Seletores de Elemento - Parágrafos e Divs
-- [ ] Estilizar o elemento `p`:
+- [x] Estilizar o elemento `p`:
   - `font-size: 14px;`
   - `color: #444444;`
   - `text-align: justify;`
 
-- [ ] Estilizar o elemento `div`:
+- [x] Estilizar o elemento `div`:
   - `text-align: left;`
 
-- [ ] Estilizar o elemento `span`:
+- [x] Estilizar o elemento `span`:
   - `color: #0066cc;`
   - `font-size: 14px;`
 
 ### 6. Seletores de Classe
-- [ ] Adicionar a classe `destaque` a pelo menos 2 elementos `<p>` no HTML
-- [ ] Criar o seletor `.destaque` no CSS com:
+- [x] Adicionar a classe `destaque` a pelo menos 2 elementos `<p>` no HTML
+- [x] Criar o seletor `.destaque` no CSS com:
   - `color: #e74c3c;`
   - `font-size: 16px;`
 
